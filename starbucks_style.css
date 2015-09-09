@@ -1,16 +1,134 @@
-.header_bar {
-	min-height: 50px;
-	min-width: 10px;
-	background: #006341;
+.header_bar a {
+    display: block;
+    padding: 12px 20px;
+    background: #004F34;
+    color: rgba(255,255,255,0.85);
+    font-weight: normal;
 }
-a {
-	width: 10px;
-	height:100px;
-	color: red;
+
+.header_bar .promo_text .lead_in {
+    padding-right: .5em;
+    text-transform: uppercase;
+    font-weight: bold;
 }
+
+
+.header_bar .promo_text {
+    color: rgba(255,255,255,0.85);
+}
+
+.header_bar a {
+    display: block;
+    padding: 12px 20px;
+    background: #004F34;
+    color: rgba(255,255,255,0.85);
+    font-weight: normal;
+}
+
+.header_bar .wrapper {
+    float: right;
+}
+
+.header_bar .wrapper {
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+p {
+    margin: 0 0 10px;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.column {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 0 10px;
+    vertical-align: top;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}
+
+media="screen, print"
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.grid {
+    text-align: left;
+    font-family: 'NoSpace';
+}
+
+div {
+    display: block;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.71429;
+}
+
+.column.sm_restore_padding, .column.sm_restore_padding_right, .column.med_restore_padding, .column.med_restore_padding_right, .column.lg_restore_padding, .column.lg_restore_padding_right {
+    padding-right: 20px;
+}
+
+.size12of12 {
+    width: 100%;
+    width: calc(100%*12/12 - .01px);
+}
+
+.store_locator.utility_link {
+    position: static;
+}
+
+@media (min-width: 768px)
+.utility_list {
+    margin-right: 295px;
+}
+
+.utility_list {
+    margin: 0;
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 1;
+    text-align: right;
+}
+
+.utility_link.signin>a {
+    display: block;
+    position: relative;
+    top: -10px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
 .jumbotron {
   background-image:url('http://1.bp.blogspot.com/-DmeqUmxELFo/VE6sLkKy6dI/AAAAAAAAWNs/01PPKaEFM8I/s1600/prometheusE_screencap18.jpg');
-  height: 1000px;
+  height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -35,3 +153,4 @@ img.icon {
 	height: auto;
 }
 
+				
