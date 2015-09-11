@@ -1,3 +1,6 @@
+#nav {
+    display: inline;
+}
 
 
 .header_bar .promo_text .lead_in {
@@ -23,15 +26,11 @@
 	display: block;
 }
 
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding:0
+.hidden_visually {
+    visibility: hidden;
 }	
 
-#nav {
-	display: inline;
-}
+
 
 .icon {
 	padding-top: 10px;
@@ -53,13 +52,27 @@ ul {
 	margin: 2px;
 }
 
+.tabs ul {
+ }
+ 
 .tab {
 	color: red;
 	float: left;
 	margin: 10px;
+	list-style-type: none;
 }
 
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0
+}
 
 /*
 
