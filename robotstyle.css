@@ -1,0 +1,325 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+/*New Body*/ body {
+	max-width: 99%;
+	margin: 0 1% 0 1%;
+}
+
+a {
+	font-family: Arial;
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .125em;
+}
+
+/*#nav {
+	clear: both;
+	color: #ffffff;
+	/*margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	padding: 0.5em 0;
+	margin-left: 100px;
+	height: 20px;
+	padding: 0px 0px 0px 30px;
+
+}
+
+#nav li {
+	display: inline;
+	padding: 0.5em;
+}
+
+#nav li a {
+	color: #000000;
+
+
+}
+
+#nav li a:hoover, nav li a.current {
+	color: #000000;
+
+}*/
+
+#pic_wrapper {
+	overflow: auto;
+}
+
+#promo_text {
+	float: right;
+	color: #ffffff;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-right: 20px;
+	text-transform: uppercase;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+#promo_text {
+	width: 550px;	
+	white-space: nowrap;
+  	overflow: ellipsis;
+  	text-overflow: ellipsis;
+	}	
+
+.back_header_bar {
+	background-color: #000011;
+	height: 40px;  
+	width: 100%;
+}
+
+
+
+.bigscreen {
+	font-family: arial;
+	color: #ffffff;
+	height: 500px;
+	background: url("Robotic_Muscle_2.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.bigsreen_h2{
+	color: #ffffff;
+	padding-top: 200px;
+	margin-left: 130px;
+	
+}
+
+.bigscreen_h3 {
+	color: #ffffff;
+	margin-left: 130px;
+}
+
+.bigscreen_h4 {
+	margin-left: 130px;
+}
+
+
+.container_1 {
+	border-top: solid 1px;
+	border-color: white;
+	background: url("/webdesign/images/mecha-owl.jpg"),;
+	background-repeat: no-repeat;
+	
+	background-size:100% 100%;
+	height: 500px;
+}
+
+.container_1 h2 {
+	color: red;
+	text-align: center;
+}
+
+.container_2 {
+	border-top: solid 1px;
+	border-color: blue;
+	background: url("/webdesign/images/robo_sword_shield.jpg"), 
+				url("/webdesign/images/robo_sword_shield.jpg"), 
+				url("/webdesign/images/robo_sword_shield.jpg");
+	background-position: left, center, right;
+	background-repeat: no-repeat;
+	height: 245px;
+}
+
+.container_2 h2 {
+	display: inline-flex;
+	padding-top: 125px;
+	margin-left: 180px;
+	margin-right: 0px;
+	color: red;
+}
+
+.container_3 {
+	border-top: solid 1px;
+	border-color: blue;
+	background: url("/webdesign/images/pacific_rim.jpg");
+	background-position: center;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container_3 h2 {
+	color: red;
+	text-align: center;
+}
+
+.container_4 {
+	border-top: solid; 1px;
+	border-color: blue;
+	background: url("/webdesign/images/gunmecha.jpg"), url("/webdesign/images/mecha_shinobi.jpg"), url("/webdesign/images/sonic_mech.jpg");
+	background-repeat: no-repeat;
+	background-position: left, right, center;
+	background-color: #000000;
+	height: 248px;
+	text-align: center;
+}
+
+.container_4 h2{
+	color: red;
+}
+
+.front_header_bar {
+	max-width: 600px;
+	background-color: #000222;
+	height: 40px;
+	margin-right: 40px;
+	margin-left: auto;
+	overflow: ellipsis;
+}
+
+.search {
+	margin-right: 1%;
+	margin-top: 0px;
+}
+
+.services {
+	
+	width: auto;
+	height: 20px;
+	margin-top: 0px;
+	
+}
+
+.services li {
+	display: inline;
+	padding: 0px 5px 0px 5px;
+	margin: 0.25em;
+}
+
+.services li:nth-child(3) {
+	margin-right: 0px;
+}
+
+.service_items{
+	float: right;
+}
+
+.wrapper {
+	width: 100%;
+	max-height: 100%;
+	background-color: #ffffff;
+	overflow: hidden;
+	padding-top: 1%;
+}
+
+/* The On-Click Menus */
+.onclick-menu {
+	position: relative;
+	display: inline-block;
+}
+#awakening:before {
+	content: "Awakening";
+}
+#jammer:before {
+	content: "Jammer";
+}
+#nzinga:before {
+	content: "Nzinga";
+}
+/*.onclick-menu:before {
+	content: "The Awakening";
+}*/
+.onclick-menu:focus {
+	pointer-events: none;
+}
+
+.onclick-menu:focus .onclick-menu-content {
+	opacity: 1;
+	visibility: visible;
+}
+
+.onclick-menu-content {
+	pointer-events: auto;
+	position: absolute;
+	z-index: 1;
+
+	opacity: 0;
+	visibility: hidden;
+	transition: visibility 0.5s;
+	-webkit-column-count: 3;
+}
+
+.onclick-menu.no-pointer-events {
+	pointer-events: auto !important;
+}
+
+.onclick-menu.no-visibility .onclick-menu-content {
+	visibility: visible !important;
+	display: none;
+}
+
+.onclick-menu.no-visibility:focus .onclick-menu-content {
+	display: block;
+}
+
+.onclick-menu.no-opacity .onclick-menu-content {
+	opacity: 1 ;
+}
+
+.onclick-menu {
+	padding: 0;
+	margin: 0 0 1em 0;
+	outline: 1px;
+}
+.onclick-menu:before {
+	padding: 5px 10px;
+	background-color: #94a4a5;
+}
+.onclick-menu-content {
+	background-color: #364656;
+	width: auto;
+
+	margin-top: 19px;
+	margin-left: 0;
+	padding: 10px;
+	overflow: auto;
+}
+
+/* arrow for the expanding part */
+.onclick-menu-content:before {
+	content: "";
+	width: 0;
+	height: 0;
+
+	border-bottom: 10px solid #f2f5e9;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+
+	position: absolute;
+	top: -10px;
+}
+
+.onclick-menu-content li {
+	color: #f2f5e9;
+	list-style-type: none;
+	white-space: nowrap;
+}
+
+/* style the buttons */
+.onclick-menu-content button {
+	background: transparent;
+	border: none;
+	color: inherit;
+	cursor: inherit;
+	outline: 0;
+	cursor: pointer;
+}
+.onclick-menu-content button:hover {
+	color: #ff8c31;
+}
+
+/* Codepen stuff */
+.onclick-menu {
+
+  text-align: left;
+}
+
+
+
+
+
